@@ -22,3 +22,12 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Docker
+
+Para lanzar la aplicación en local, mediante docker, ejecutar:
+
+~~~bash
+docker build -t frontend-project .
+docker run -p 3000:3000 -v .:  backend-project
+~~~
